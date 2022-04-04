@@ -1,0 +1,326 @@
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            height: 100%;
+        }
+
+        .resumebox {
+            width: 850px;
+            height: 1650px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        .box.outer {
+            padding: 30px;
+        }
+
+        .box1 {
+            background-color: rgb(36, 198, 226);
+            width: 300px;
+            float: left;
+            height: 1650px;
+
+        }
+
+        .profile {
+            height: 230px;
+
+            width: 230px;
+
+            border: white solid;
+            border-radius: 50%;
+            margin-left: 20px;
+
+
+
+
+        }
+
+        .content {
+            padding: 15px;
+            font-size: 18px;
+
+
+
+        }
+
+        h2 {
+            color: rgb(5, 46, 70);
+
+            font-weight: 50px;
+            text-transform: capitalize;
+        }
+
+        h6 {
+            color: rgb(4, 43, 48);
+            font-size: 14px;
+        }
+
+        ul {
+            color: rgb(4, 43, 48);
+            font-size: 22px;
+        }
+
+        .box2 {
+            width: 500px;
+            float: left;
+            padding-bottom: 40px;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .intro h1 {
+            font-size: 40px;
+            font-style: bold;
+            color: #26252d;
+            text-align: center;
+        }
+
+        .hr {
+            height: 2px;
+            background-color: black;
+            margin: -25px 0px;
+        }
+
+        .content2a {
+            padding-top: 40px;
+            margin: 10px;
+        
+
+        }
+
+        .item {
+            color: #26252d;
+            font-weight: 50px;
+            text-transform: uppercase;
+            margin: 0px;
+
+        }
+
+        .para {
+            color: darkslategray;
+            font-size: 18px;
+            margin: 0px;
+            padding-top: 15px;
+
+        }
+
+        .user {
+            color: #26252d;
+            font-weight: 50px;
+            text-transform: uppercase;
+            margin: 0px;
+            padding-top: 15px;
+
+        }
+
+        .user1 {
+            color: darkslategray;
+            font-weight: 300px;
+            padding-top: 15px;
+            ;
+
+            text-transform: uppercase;
+            margin: 0px;
+
+        }
+
+        .user3 {
+            color: #26252d;
+            margin: 0px;
+            font-size: 20px;
+            padding-top: 15px;
+        }
+
+        .user4 {
+            color: darkslategray;
+            margin: 0px;
+            font-size: 18px;
+            padding-top: 15px;
+
+
+        }
+
+        .user5 {
+            color: darkslategray;
+            font-weight: 300px;
+            text-transform: uppercase;
+            margin: 0px;
+            padding-top: 15px;
+        }
+
+        .user6 {
+            color: #26252d;
+            margin: 0px;
+            font-size: 20px;
+            padding-top: 15px;
+        }
+
+        .user7 {
+            color: darkslategray;
+            margin: 0px;
+            font-size: 18px;
+            padding-top: 15px;
+
+
+        }
+
+        .server {
+            color: #26252d;
+            margin: 0px;
+            font-size: 20px;
+            padding-top: 15px;
+
+        }
+        .aa1{
+            color: #26252d;
+            font-weight: 50px;
+            text-transform: uppercase;
+            margin: 0px;
+        }
+        .link{
+            position:relative;
+            bottom: 45px;
+    left: 68px;
+        }
+        .resumes{
+            font-size: 24px;
+        }
+        .a{
+            font-size: 22px;
+            position: relative;
+    left: 165px;
+    bottom: 51px;
+        }
+        .adds{
+            position:relative;
+            bottom:60px;
+        }
+        .links{
+            position:relative;
+            left: 159px;
+    bottom: 113px;
+        }
+        .parali{
+            color:darkslategrey;
+        }
+        
+        
+
+        @media only screen and (max-width:767px) {
+            .content2a {
+
+
+                width: 247px;
+
+            }
+
+            .intro h1 {
+                position: relative;
+                left: -7px;
+
+            }
+            .resumebox{
+                display:flex;
+                flex-direction: column;
+                height: 100%;
+                width: 400px;
+            }
+            body{
+               background-color: white;
+            }
+            .box2{
+                width:400px;
+                
+                padding:20px;
+            }
+            .para{
+               line-height: 28px;
+               width: 306px;
+               text-align:justify;
+            }
+            .box1{
+                
+                margin-left: -1px;
+                width: 359px;
+            }
+            .profile{
+                margin-left: 59px;
+            }
+            .user1{
+                
+                padding-left: 1px;
+                   width: 311px;
+                line-height: 30px;
+            }
+            .user{
+                padding-left: 1px;
+                width: 348px;
+             line-height: 30px;
+            }
+            .user3{
+                padding-left: 1px;
+                width: 348px;
+             line-height: 30px;
+            }
+            .user4{
+                
+                    padding-left: 1px;
+                    width: 348px;
+                 line-height: 30px;
+                }
+                .user5{
+                    
+                
+                        padding-left: 1px;
+                        width: 348px;
+                     line-height: 30px;
+                    }
+                    .user6{
+                    
+                
+                        padding-left: 1px;
+                        width: 348px;
+                     line-height: 30px;
+                    }
+                    .aa1{
+                        padding-left: 1px;
+    width: 348px;
+    line-height: 30px;
+}
+.parali{
+    
+        line-height: 28px;
+        width: 306px;
+        text-align:justify;
+        position: relative;
+        left:-32px;
+}
+.link{
+    left: 4px;
+    position: relative;
+    top: -16px;
+}
+.links{
+    position:relative;
+    left:4px;
+}
+}
+                    
+                
+            
+
+            
+            
+            
+        
+
+
+
+
+
